@@ -1,0 +1,73 @@
+:root {
+    --cardWidth: 10.7rem;
+    --cardHeight: 15.1rem;
+    --cardMargin:0.62rem;
+}
+
+.categoria {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.texto_categoria {
+    color: #464646;
+    font-weight: 700;
+    width: 85%;
+    height: 2.37rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.texto_categoria a {
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.titulo_categoria {
+    font-size: 30px;
+}
+
+.productos {
+    width: 85%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: var(--cardWidth);
+    height: var(--cardHeight);
+    margin-bottom: 40px;
+}
+
+.card h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #464646;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2A7AE4;
+    margin-top: 10px;
+    text-decoration: none;
+}

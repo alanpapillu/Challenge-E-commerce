@@ -1,0 +1,38 @@
+.login {
+    background: #E5E5E5;
+}
+
+.login_formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login_formulario h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #464646;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.login_formulario input {
+    width: 420px;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.login_formulario button {
+    margin: 3% 0 8% 0;
+    width: 144px;
+    height: 51px;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
